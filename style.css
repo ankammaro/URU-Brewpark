@@ -1,0 +1,68 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex; /* Use flexbox for centering content */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+        }
+        .menu-item {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex; /* Use flexbox for the main item container */
+            gap: 20px; /* Space between the text and image */
+            align-items: center;
+        }
+        .item-details {
+            display: flex;
+            flex-direction: column;
+            flex: 1; /* Allow the text to take up available space */
+        }
+        .item-image {
+            width: 150px; /* Fixed width for the image */
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover; /* Ensures the image covers the container */
+        }
+        .item-title {
+            font-weight: bold;
+            color: red;
+        }
+        .item-name {
+            font-size: 1.5em;
+        }
+        .item-description {
+            font-size: 1em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .item-price {
+            font-weight: bold;
+            color: #e67e22;
+        }
+        .item-min {
+            color: #888;
+        }
+        .order-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #e67e22;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
